@@ -1,52 +1,118 @@
-# 🧹 YTS Cleaner UserScript
 
-**YTS Cleaner** is a lightweight and powerful Tampermonkey/Greasemonkey user script that removes ads, pop-ups, click-hijackers, and overlays from all major [YTS](https://yts.mx) mirror sites — while keeping torrent and magnet link functionality intact.
+# 🧠 TamperMonkeyScripts Collection
 
-It also includes a visible on-screen toggle to quickly enable or disable the script on the fly.
-
----
-
-## ✨ Features
-
-- ✅ Removes full-screen overlays and pop-unders
-- ✅ Blocks `window.open` popups
-- ✅ Cleans invisible click blockers
-- ✅ Preserves `.torrent` and `magnet:` links
-- ✅ Supports **YTS mirror domains** (e.g. `yts.mx`, `yts.rs`, `yts.pm`)
-- ✅ Lightweight and fast
-- ✅ Visible toggle button to enable/disable
+A growing collection of user-enhancing, ad-blocking, and cleanup scripts designed to improve browsing experiences on sites like **YTS** and **Facebook** using [Tampermonkey](https://www.tampermonkey.net/).
 
 ---
 
-## 📷 Screenshot
+## 📜 Available Scripts
 
-![screenshot](https://your-image-link-here)  
-*Optional: Add an annotated screenshot showing the toggle button on yts.mx*
+### 🧹 YTS Cleaner (`yts-cleaner.user.js`)
 
----
+Removes intrusive overlays, popups, and ad traps on all major YTS mirror sites — without breaking torrent and magnet link access.
 
-## 🔧 Installation
+#### ✨ Features
 
-> 📦 You need [Tampermonkey](https://www.tampermonkey.net/) or [Violentmonkey](https://violentmonkey.github.io/) installed in your browser.
+* ✅ Removes full-screen overlays and pop-unders
+* ✅ Blocks `window.open` popups
+* ✅ Cleans invisible click blockers
+* ✅ Preserves `.torrent` and `magnet:` links
+* ✅ Supports **YTS mirror domains** (e.g. `yts.mx`, `yts.rs`, `yts.pm`)
+* ✅ Includes a visible **toggle button** to enable/disable script at any time
 
-### 1. Install the script
+#### 📷 Screenshot
 
-Click the link below to install directly via Tampermonkey:
+> *(Add your screenshot link below or use a placeholder)*
+> ![YTS Toggle Screenshot](https://your-yts-screenshot-url)
 
-👉 [Install via GitHub](https://raw.githubusercontent.com/YOUR_USERNAME/yts-cleaner-userscript/main/yts-cleaner.user.js)
+#### 🔧 Installation
 
-Or:
+📦 Requires [Tampermonkey](https://www.tampermonkey.net/) or [Violentmonkey](https://violentmonkey.github.io/)
 
-👉 [Install via GreasyFork](https://greasyfork.org/en/scripts/YOUR-ID)
+* 👉 [Install via GitHub](https://raw.githubusercontent.com/TamperMonkeyDevelopment/TamperMonkeyScripts/main/yts-cleaner.user.js)
+* Or [Install via GreasyFork](https://greasyfork.org/en/scripts/YOUR-YTS-ID) *(when published)*
 
----
-
-## 🔄 Supported Sites
+#### 🔄 Supported Domains
 
 ```text
 https://yts.mx/*
 https://yts.rs/*
 https://yts.pm/*
 https://yts.lt/*
-https://yifytorrent/*
 https://yts.ag/*
+https://yifytorrent/*
+```
+
+---
+
+### ⚙ Facebook Enhancer (`facebook-enhancer.user.js`)
+
+Transforms modern Facebook into a cleaner, smarter, faster platform with deep user-side control over distractions.
+
+#### ✨ Features
+
+* ✅ Block ads and “Suggested for You” content
+* ✅ Disable video autoplay
+* ✅ Remove red notification bubbles
+* ✅ Force **"Most Recent"** feed over algorithmic
+* ✅ Hide **"People You May Know"**
+* ✅ Auto-expand comments and replies
+* ✅ Auto-close login nags and feedback popups
+* ✅ Unwrap `l.facebook.com` redirect links
+* ✅ Toggle between **Dark Mode** and a **Classic Blue Theme**
+* ✅ 📌 Built-in floating **settings menu** for live toggles
+
+#### 📷 Screenshot
+
+> *(Add your screenshot link below or use a placeholder)*
+> ![Facebook Toggle Screenshot](https://your-fb-screenshot-url)
+
+#### 🔧 Installation
+
+📦 Requires [Tampermonkey](https://www.tampermonkey.net/)
+
+* 👉 [Install via GitHub](https://raw.githubusercontent.com/TamperMonkeyDevelopment/TamperMonkeyScripts/main/facebook-enhancer.user.js)
+* Or [Install via GreasyFork](https://greasyfork.org/en/scripts/YOUR-FB-ID) *(when published)*
+
+#### 🔄 Supported Domain
+
+```text
+https://www.facebook.com/*
+```
+
+---
+
+## 🔧 How to Use the Scripts
+
+1. Install **Tampermonkey** in your browser
+2. Click install links above for each script
+3. Visit YTS or Facebook — a toggle/settings button will appear
+4. Use the built-in menu to enable/disable features
+5. Settings are remembered between sessions
+
+---
+
+## 📁 Repo Structure
+
+```
+TamperMonkeyScripts/
+├── yts-cleaner.user.js
+├── facebook-enhancer.user.js
+├── LICENSE
+├── .gitignore
+└── README.md
+```
+
+---
+
+## 🛠 Contributing
+
+Got an idea or bug fix?
+Feel free to fork and submit a pull request, or open an issue!
+
+---
+
+## 📜 License
+
+MIT License
+© 2025 TamperMonkeyDevelopment
